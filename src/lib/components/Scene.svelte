@@ -17,7 +17,7 @@
 </script>
 
 <Text
-  text={`Для: ${nameTo}`}
+  text={`Для: ${nameTo ? nameTo : 'Вас'}`}
   fontSize={0.4}
   textAlign={'start'}
   color='red'
@@ -25,7 +25,7 @@
 />
 
 <Text
-  text={`От: ${nameFrom}`}
+  text={`От: ${nameFrom ? nameFrom : 'honddk'}`}
   fontSize={0.5}
   color='red'
   textAlign={'start'}
