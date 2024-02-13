@@ -4,7 +4,7 @@
   import {useGltf, FakeGlowMaterial } from '@threlte/extras'
   export const ref = new Group()
 
-  const gltf = useGltf('/jar_of_hearts.glb', { useDraco: true })
+  const gltf = useGltf('{base}/jar_of_hearts.glb', { useDraco: true })
   const component = forwardEventHandlers()
 </script>
 
