@@ -3,9 +3,8 @@
   import { T, forwardEventHandlers } from '@threlte/core'
   import {useGltf, FakeGlowMaterial } from '@threlte/extras'
   export const ref = new Group()
-  import { base } from '$app/paths';
 
-  const gltf = useGltf('{base}/jar_of_hearts.glb', { useDraco: true })
+  const gltf = useGltf('jar_of_hearts.glb', { useDraco: true })
   const component = forwardEventHandlers()
 </script>
 
